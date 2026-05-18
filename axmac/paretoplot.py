@@ -35,8 +35,8 @@ _HERE = Path(__file__).resolve().parent
 if str(_HERE) not in sys.path:
     sys.path.insert(0, str(_HERE))
 
-from axmac.exact_mac import INT4, INT8, INT16, BF16, FP16, FP32
-from axmac.pareto import (
+from .exact_mac import INT4, INT8, INT16, BF16, FP16, FP32
+from .pareto import (
     DesignPoint,
     pareto_front,
     sort_front_by_energy,
