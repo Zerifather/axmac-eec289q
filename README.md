@@ -16,6 +16,7 @@ project/
     accuracy_eval.py    # RMSE/MED/max-error sweeps (Week 4)
     dnn_inference.py    # Custom torch.autograd.Function for AxMAC; CIFAR-10/MNIST (Week 5)
     pareto.py           # Full (precision, K) sweep + Pareto plots (Week 6)
+    paretoplot.py       #
   tests/                # pytest unit tests
   main.py               # End-to-end driver
   requirements.txt
